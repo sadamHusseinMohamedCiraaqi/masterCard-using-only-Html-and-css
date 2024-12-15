@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+.card {
+    background: linear-gradient(135deg, #2d3e50, #1c2b3a);
+    color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    position: relative;
+}
+
+/* Top Section */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img{
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.card-brand p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card-brand .world {
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+ 
+
+/* Middle Section */
+.middle-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.card-number {
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+.valid-thru {
+    font-size: 0.8em;
+    color: #cbcbcb;
+}
+
+.expiry {
+    margin: 0;
+}
+
+/* Bottom Section */
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+}
+
+.name {
+    font-size: 1.1em;
+}
+
+.logos {
+    display: flex;
+    position: relative;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.circle.red {
+    background-color: red;
+}
+
+.circle.yellow {
+    background-color: yellow;
+}
